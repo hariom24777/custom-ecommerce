@@ -27,22 +27,7 @@ const Home = () => {
   return (
     <>
       <HomeSlider />
-
-      {/* ---home-slider-new--- */}
-      {/* <section className="py-6">
-        <div className="container flex gap-5">
-          <div className="part1 w-[70%]">
-            <HomeSliderNew />
-          </div>
-
-          <div className="part2 w-[30%] flex items-center justify-between flex-col">
-            <BannerBoxNew info="left" image={'https://demos.codezeel.com/prestashop/PRS21/PRS210502/img/cms/sub-banner-1.jpg'}/>
-            <BannerBoxNew info="right" image={'https://demos.codezeel.com/prestashop/PRS21/PRS210502/img/cms/sub-banner-2.jpg'}/>
-          </div>
-
-        </div>
-      </section> */}
-
+      
       <HomeCatSlider />
 
       <section className="bg-white py-8">
